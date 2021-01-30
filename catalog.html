@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Catalog</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <a> 
+            <img src="img/logo.svg" width="138px" height="70px" alt="Логотип навигации">
+          </a>
+          <ul>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Фото и видео</a></li>
+            <li><a href="#">Карта штата</a></li>
+            <li><a href="hotels.html">Гостиницы</a></li>
+          </ul>
+        </nav>
+     </header>
+
+     <main>
+
+         <!-- Блок с инфрастуктурой и типом жилья  -->
+
+         <section>
+             <fieldset>
+                 <legend>Инфрастуктура</legend>
+                 <ul>
+                     <li>
+                         <input type="checkbox" name="swimming-pool" id="filter-swimming-pool" checked>
+                         <label for="filter-swimming-pool">Бассейн</label>
+                     </li>
+                     <li>
+                         <input type="checkbox" name="parking" id="filter-parking">
+                         <label for="filter-parking">Парковка</label>
+                     </li>
+                     <li>
+                         <input type="checkbox" name="wi-fi" id="filter-wi-fi">
+                         <label for="filter-wi-fi">wi-fi</label>
+                     </li>
+                 </ul>
+             </fieldset>
+         </section>
+         <section>
+             <fieldset>
+                 <legend>Тип жилья</legend>
+                 <ul>
+                     <li>
+                         <input type="checkbox" name="hotel" id="filter-hotel" checked>
+                         <label for="filter-hotel">Гостиница</label>
+                     </li>
+                     <li>
+                         <input type="checkbox" name="motel" id="filter-motel" checked>
+                         <label for="filter-motel">Мотель</label>
+                     </li>
+                     <li>
+                         <input type="checkbox" name="apartments" id="filter-apartments" checked>
+                         <label for="filter-apartments">Апартаменты</label>
+                     </li>
+                 </ul>
+             </fieldset>
+         </section>
+
+        <!-- Тут я бы сделал дивом блок с ползунком цены.  -->
+        <!-- Пока только набросок -->
+
+        <div class="filter-price">
+            <div class="filter-price-title">стоимость в сутки</div>
+            <div class="filter-price-header">
+                <div class="filter-price-from"></div>
+                <div class="filter-price-to"></div>
+            </div>
+            <div class="filter-range-slider"></div>
+            <div class="filter-button-show">
+                <button class="filter-button-show">показать</button>
+            </div>
+        </div>
+
+        <!-- Сортировка из: цена, по типу, и по рейтингу -->
+
+        <section>
+            <fieldset>
+                <legend>найдено</legend>
+                <p>Сортировка</p>
+                <ul>
+                    <button type="button">по цене</button>
+                </ul>
+                <ul>
+                    <button type="button">по типу</button>
+                </ul>
+                <ul>
+                    <button type="button">по рейтингу</button>
+                </ul>
+                <div>
+                    <div class="button-top-bottom">
+                        <div class="button-top">
+                            <button type="button">треугольничек вверх</button>
+                        </div>
+                        <div class="button-bottom">
+                            <button type="button">треугольничек вниз</button>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </section>
+
+        <!-- найденные гостиницы -->
+
+         <section>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="img/amara-resort-spa.jpg" alt="amara resort & spa">
+                        <h3>amara resort & spa</h3>
+                    </a>
+                    <div>
+                        <div>гостиница</div>
+                        <div>от 400 р</div>
+                        <div>звездочки</div>
+                    </div>
+                    <div>
+                        <div>
+                            <a href="#">подробнее</a>
+                        </div>
+                        <div>
+                            <button>забронировать</button>
+                        </div>
+                        <!-- не знаю, кнопка или ссылка которая серого цвета под звездочками-->
+                        <div>рейтинг: 8,5</div> 
+                    </div>
+                </li>
+                <!-- остальные 2 отеля думал заполнить по аналоги, но хотел, что бы ты в начале посмотрела
+                первоначальную верстку -->
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        
+
+        <!-- ТУТ ПОДВАЛ САЙТА -->
+
+        <footer>
+            <div>
+              <div>
+                <p>
+                  #VISITSEDONA
+                </p>
+                <p>
+                  ТЕЛ: <a href="tel:+74956660166">+7 (495) 666-01-66</a>
+                </p>
+              <div>
+              </div>
+            <div>
+              <ul>
+                <li>
+                  <a href="#">Twitter</a>
+                </li>
+                <li>
+                  <a href="#">Facebook</a>
+                </li>
+                <li>
+                  <a href="#">Youtube</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p>
+                WEBSITE BY
+                <a href="https://htmlacademy.ru/intensive/htmlcss">html academy</a>
+              </p>
+            </div>
+          </footer>
+     </main>
+</body>
+</html>
