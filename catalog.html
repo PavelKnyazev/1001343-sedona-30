@@ -8,14 +8,14 @@
 <body>
     <header>
         <nav>
-          <a> 
+          <a href="index.html"> 
             <img src="img/logo.svg" width="138px" height="70px" alt="Логотип навигации">
           </a>
           <ul>
             <li><a href="#">Информация</a></li>
             <li><a href="#">Фото и видео</a></li>
             <li><a href="#">Карта штата</a></li>
-            <li><a href="hotels.html">Гостиницы</a></li>
+            <li><a href="catalog.html">Гостиницы</a></li>
           </ul>
         </nav>
      </header>
@@ -74,7 +74,7 @@
             </div>
             <div class="filter-range-slider"></div>
             <div class="filter-button-show">
-                <button class="filter-button-show">показать</button>
+                <button type="submit" class="filter-button-show">показать</button>
             </div>
         </div>
 
@@ -82,27 +82,26 @@
 
         <section>
             <fieldset>
-                <legend>найдено</legend>
+                <legend>найдено 3:</legend>
                 <p>Сортировка</p>
                 <ul>
-                    <button type="button">по цене</button>
+                    <li>
+                        <button type="button">по цене</button>
+                    </li>
+                    <li>
+                        <button type="button">по типу</button>
+                    </li>
+                    <li>
+                        <button type="button">по рейтингу</button>
+                    </li>
                 </ul>
-                <ul>
-                    <button type="button">по типу</button>
-                </ul>
-                <ul>
-                    <button type="button">по рейтингу</button>
-                </ul>
-                <div>
-                    <div class="button-top-bottom">
+                    <div class="button-top-botton">
                         <div class="button-top">
                             <button type="button">треугольничек вверх</button>
                         </div>
-                        <div class="button-bottom">
-                            <button type="button">треугольничек вниз</button>
-                        </div>
+                    <div class="button-bottom">
+                        <button type="button">треугольничек вниз</button>
                     </div>
-                </div>
             </fieldset>
         </section>
 
@@ -111,30 +110,55 @@
          <section>
             <ul>
                 <li>
-                    <a href="#">
-                        <img src="img/amara-resort-spa.jpg" alt="amara resort & spa">
-                        <h3>amara resort & spa</h3>
-                    </a>
                     <div>
-                        <div>гостиница</div>
-                        <div>от 400 р</div>
-                        <div>звездочки</div>
+                        <img src="img/amara-resort-spa.jpg" width="135" height="90" alt="amara resort & spa">
+                        <p>amara resort & spa</p>
                     </div>
                     <div>
-                        <div>
-                            <a href="#">подробнее</a>
-                        </div>
-                        <div>
-                            <button>забронировать</button>
-                        </div>
-                        <!-- не знаю, кнопка или ссылка которая серого цвета под звездочками-->
-                        <div>рейтинг: 8,5</div> 
+                        <span>гостиница</span>
+                        <span>от 4000 р.</span>
+                    </div>
+                    <div>звездочки</div>
+                    <div>
+                        <a href="#">подробнее</a>
+                        <a href="#">забронировать</a>
+                        <p>рейтинг: 8,5 </p>
                     </div>
                 </li>
                 <!-- остальные 2 отеля думал заполнить по аналоги, но хотел, что бы ты в начале посмотрела
                 первоначальную верстку -->
-                <li></li>
-                <li></li>
+                <li>
+                    <div>
+                        <img src="img/desert-qual-inn.jpg" width="135" height="90" alt="desert quail inn">
+                        <p>desert quail inn</p>
+                    </div>
+                    <div>
+                        <span>мотель</span>
+                        <span>от 3000 р.</span>
+                    </div>
+                    <div>звездочки</div>
+                    <div>
+                        <a href="#">подробнее</a>
+                        <a href="#">забронировать</a>
+                        <p>рейтинг: 8,9</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="img/villas-pocco-diablo.jpg" width="135" height="90" alt="desert quail inn">
+                        <p>villas at poco diablo</p>
+                    </div>
+                    <div>
+                        <span>апартаменты</span>
+                        <span>от 2000 р.</span>
+                    </div>
+                    <div>звездочки</div>
+                    <div>
+                        <a href="#">подробнее</a>
+                        <a href="#">забронировать</a>
+                        <p>рейтинг: 9,2</p>
+                    </div>
+                </li>
             </ul>
         </section>
         

@@ -8,30 +8,30 @@
 
    <header>
       <nav>
-        <a> 
-          <img src="img/logo.svg" width="138px" height="70px" alt="Логотип навигации">
+        <a href="index.html"> 
+          <img src="img/logo.svg" width="138" height="70" alt="Логотип навигации">
         </a>
         <ul>
           <li><a href="#">Информация</a></li>
           <li><a href="#">Фото и видео</a></li>
           <li><a href="#">Карта штата</a></li>
-          <li><a href="hotels.html">Гостиницы</a></li>
+          <li><a href="catalog.html">Гостиницы</a></li>
         </ul>
       </nav>
    </header>
 
       <main>
         <div>
-          <img src="img/welcome-image.png" width="100%" height="100%" alt="welcome">
+          <img src="img/background photo.jpg" width="1200" height="509" alt="background">
         </div>
-        <img src="img/welcome2.svg" alt="welcome2">
-        <img src="img/Group 1.png" width="100%" height="100%" alt="основная">
+        <img src="img/welcome.svg" width="1200" height="57" alt="welcome">
+        <img src="img/Group 1.png" width="1200" height="57" alt="основная">
         <h1>
           седона - небольшой городок в аризоне,</br>
           заслуживающий большего!
         </h1>
         <p>
-          рассмотрим 5 причин, по которым седона, чем гранд каньон!
+          рассмотрим 5 причин, по которым седона круче, чем гранд каньон!
         </p>
 
         <section>
@@ -61,7 +61,7 @@
               </b>
               <p>
                 всегда заказывайте фирменный бургер,</br>
-                вы н  разочаруетесь!
+                вы не  разочаруетесь!
               </p>
             </li>
             <li>
@@ -135,7 +135,51 @@
             </li>
           </ul>
         </section>
+
+        <!-- БЛОК ЗАИНТЕРЕСОВАЛИСЬ -->
+
+        <section>
+          <div>
+            <h3>заинтересовались?</h3>
+            <p>укажите предполагаемые даты поездки, и мы покажем вам учшие предложения гостиниц в седоне</p>
+            <button></button>
+            <form action="/" method="POST">
+              <fieldset>
+                <label>дата заезда
+                  <input type="date" name="date-arrival">
+                </label>
+              </fieldset>
+              <fieldset>
+                <label>дата выезда
+                  <input type="date" name="date-of-departure">
+                </label>
+              </fieldset>
+
+              <fieldset>
+                <label for="adult">взрослые</label>
+                <div>
+                  <button type="button">-</button>
+                  <input type="number" name="adults" id="adult">
+                  <button type="button">+</button>
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <label for="child">дети</label>
+                <div>
+                  <button type="button">-</button>
+                  <input type="number" name="children" id="child">
+                  <button type="button">+</button>
+                </div>
+              </fieldset>
+              <button type="submit" class="btn">найти</button>
+            </form>
+          </div>
+          <div class="map"></div>
+        </section> 
       </main>
+
+      <!-- ПОДВАЛ САЙТА -->
 
       <footer>
         <div>
