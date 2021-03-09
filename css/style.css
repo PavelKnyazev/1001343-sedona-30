@@ -1,16 +1,81 @@
+
+/* Fonts */
+
 @font-face {
     font-family: "PT Sans";
-    src: url(../fonts/PTSans.woff);
-    src: url(../fonts/PTSans.woff2);
+    src: url(../fonts/PTSans.woff2) format("woff2"),
+        url(../fonts/PTSans.woff) format("woff");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "PT Sans";
-    src: url(../fonts/PTSans-Bold.woff);
-    src: url(../fonts/PTSans-Bold.woff2);
+    src: url(../fonts/PTSans-Bold.woff2) format("woff2"),
+        url(../fonts/PTSans-Bold.woff) format("woff");
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
 }
 
+/* Variables */
+
+:root {
+    --basic-black: #000000;
+    --basic-extra-black: #333333;
+    --basic-white: #ffffff;
+    --basic-dark: #666666;
+    --basic-neutral: #CACACA;
+    --basic-blue: #81B3D2;
+    --basic-brown: #766357;
+
+}
+
+/* Global */
+
+body {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: "PT Sans";
+    font-size: 14px;
+    line-height: 21px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Main navigation */
+
+.main-navigation {
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--basic-black);
+}
+
+.site-navigation {
+    list-style: none;
+}
+
+
+/* Welcome */
+
+.container h1 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.container p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
@@ -7,14 +7,15 @@
     <link rel="icon" href="./Favicon/32.ico" type="image/x-icon">
     <link rel="icon" href="./Favicon/152.ico" type="image/x-icon">
   </head>
-  <body>
 
-   <header>
-      <nav>
-        <a href="index.html"> 
+  <body class="page">
+
+   <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo" href="index.html"> 
           <img src="img/logo.svg" width="138" height="70" alt="Логотип навигации">
         </a>
-        <ul>
+        <ul class="site-navigation">
           <li><a href="#">Информация</a></li>
           <li><a href="#">Фото и видео</a></li>
           <li><a href="#">Карта штата</a></li>
@@ -23,8 +24,8 @@
       </nav>
    </header>
 
-      <main>
-        <div>
+      <main class="container">
+        <div class="welcome">
           <img src="img/background photo.jpg" width="1200" height="509" alt="background">
         </div>
         <img src="img/welcome.svg" width="1200" height="57" alt="welcome">
@@ -37,17 +38,17 @@
           рассмотрим 5 причин, по которым седона круче, чем гранд каньон!
         </p>
 
-        <section>
-          <div>
+        <section class="reason-row">
+          <div class="reason-box">
             <b>настоящий городок</b>
             <p>- №1 -</p>
             <p>седона не аттракцион для туристов, там</br> течёт своя жизнь</p>
           </div>
-          <div>
+          <div class="reason-image">
             <img src="img/sity-image.png" width="800" height="256" alt="настоящий городок">
           </div>
-          <ul>
-            <li>
+          <ul class="list-tourism">
+            <li class="list-tourism-item">
               <img src="img/icon-1.svg" alt="home" width="75" height="70">
               <b>
                 жильё
@@ -57,7 +58,7 @@
                 мотеле, всё как в кино!
               </p>
             </li>
-            <li>
+            <li class="list-tourism-item">
               <img src="img/icon-3.svg" alt="food" width="75" height="70">
               <b>
                 еда
@@ -67,7 +68,7 @@
                 вы не  разочаруетесь!
               </p>
             </li>
-            <li>
+            <li class="list-tourism-item">
               <img src="img/icon-2.svg" alt="souvenirs" width="75" height="70">
               <b>
                 сувениры
@@ -79,11 +80,12 @@
             </li>
           </ul>
         </section>
-        <section>
-          <div>
+
+        <section class="reason-row">
+          <div class="reason-image">
             <img src="img/bridge-devil-image.png" alt="bridge-devil" width="800" height="256">
           </div>
-          <div>
+          <div class="reason-box">
             <b>
               там есть</br>
               мост дьявола
@@ -96,8 +98,8 @@
               если конечно вы осмелитесь
             </p>
           </div>
-          <ul>
-            <li>
+          <ul class="list-tourism">
+            <li class="list-tourism-item">
               <b>
                 небольшая</br>
                 площадь
@@ -110,7 +112,7 @@
                 находятся очень близко
               </p>
             </li>
-            <li>
+            <li class="list-tourism-item">
               <b>
                 красивая</br>
                 дорога
@@ -123,7 +125,7 @@
                 не скучно!
               </p>
             </li>
-            <li>
+            <li class="list-tourism-item">
               <b>
                 мало</br>
                 туристов
@@ -141,8 +143,8 @@
 
         <!-- БЛОК ЗАИНТЕРЕСОВАЛИСЬ -->
 
-        <section>
-          <div>
+        <section class="interested">
+          <div class="interested-box">
             <h3>заинтересовались?</h3>
             <p>укажите предполагаемые даты поездки, и мы покажем вам учшие предложения гостиниц в седоне</p>
             <button></button>
@@ -184,8 +186,8 @@
 
       <!-- ПОДВАЛ САЙТА -->
 
-      <footer>
-        <div>
+      <footer class="footer">
+        <div class="footer-contacts">
           <div>
             <p>
               #VISITSEDONA
@@ -194,21 +196,21 @@
               ТЕЛ: <a href="tel:+74956660166">+7 (495) 666-01-66</a>
             </p>
           <div>
-          </div>
-        <div>
+        </div>
+        <div class="footer-social">
           <ul>
             <li>
-              <a href="#">Twitter</a>
+              <a class="social-button" href="#">Twitter</a>
             </li>
             <li>
-              <a href="#">Facebook</a>
+              <a class="social-button" href="#">Facebook</a>
             </li>
             <li>
-              <a href="#">Youtube</a>
+              <a class="social-button" href="#">Youtube</a>
             </li>
           </ul>
         </div>
-        <div>
+        <div class="footer-copyright">
           <p>
             WEBSITE BY
             <a href="https://htmlacademy.ru/intensive/htmlcss">html academy</a>
